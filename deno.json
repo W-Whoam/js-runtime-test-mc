@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "server": "deno run --allow-net servers/deno/server.ts",
+    "client": "deno run --allow-net clients/deno/client.ts",
+    "benchmark": "deno run --allow-net benchmarks/run.ts"
+  },
+  "imports": {
+    "shared/": "./shared/"
+  }
+}

@@ -1,0 +1,8 @@
+[run]
+autoInstall = true
+
+[test]
+timeout = 30000
+
+[define]
+"process.env.NODE_ENV" = "\"production\""

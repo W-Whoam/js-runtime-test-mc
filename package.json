@@ -1,0 +1,10 @@
+{
+  "name": "minecraft-perf-test",
+  "version": "1.0.0",
+  "description": "Minecraft Protocol performance comparison: Deno vs Bun",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@std/encoding": "npm:@jsr/std__encoding"
+  }
+}
